@@ -7,7 +7,7 @@ export default props => {
         return child !== elseChild
     })
 
-    console.log(elseChild)
+    //console.log(elseChild)
 
     if(props.test) {
         //return props.children
