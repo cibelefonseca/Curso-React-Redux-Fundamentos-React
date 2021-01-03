@@ -1,0 +1,14 @@
+.Mega button {
+    background-color: #A6ECA8;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.4rem;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.Mega button:hover {
+    background-color: #77DD76;
+}
