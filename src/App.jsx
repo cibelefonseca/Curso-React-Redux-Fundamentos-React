@@ -3,6 +3,7 @@ import React from 'react'
 
 import Card from './components/layout/Card'
 
+import MegaResposta from './components/mega/MegaResposta'
 import Mega from './components/mega/Mega'
 import Contador from './components/contador/Contador2'
 import Input from './components/formulario/Input'
@@ -23,7 +24,10 @@ export default () => (
     <div className='App'>
         <h1>Fundamentos React</h1>
         <div className="Cards">
-            <Card titulo='#12 - Desafio Megasena' color="#A6ECA8">
+            <Card titulo='#13 - Desafio Megasena Resposta' color="#B2D1C5">
+                <MegaResposta qtde={8}></MegaResposta>
+            </Card>
+            <Card titulo='#13 - Desafio Megasena' color="#A6ECA8">
                 <Mega></Mega>
             </Card>
             <Card titulo='#12 - Contador' color="#FFF49C">
@@ -40,8 +44,8 @@ export default () => (
             </Card>
             <Card titulo='#08 - Renderização Condicional' color="#FFDAC1">
                 <ParOuImpar numero={21}></ParOuImpar>
-                <UsuarioInfo usuario={{nome: 'Fernando'}}></UsuarioInfo>
-                <UsuarioInfo usuario={{email: 'fernando@gmail.com'}}></UsuarioInfo>
+                <UsuarioInfo usuario={{ nome: 'Fernando' }}></UsuarioInfo>
+                <UsuarioInfo usuario={{ email: 'fernando@gmail.com' }}></UsuarioInfo>
             </Card>
             <Card titulo='#07 - Desafio Repetição' color="#998AD3">
                 <TabelaProdutos></TabelaProdutos>
